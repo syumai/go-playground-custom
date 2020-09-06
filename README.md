@@ -13,10 +13,10 @@
 
 * https://goplay.syumai.dev
 
-## Related Contents
+## References
 
-* [syumai/goplayground-js](https://github.com/syumai/goplayground-js)
-  - A client library for The Go Playground.
+* Original `The Go Playground` by Go team
+  - https://play.golang.org/
 
 ## Author
 
