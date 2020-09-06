@@ -25,8 +25,15 @@ header, main, footer {
 header {
   height: 52px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #e0ebf5;
+}
+
+@media screen and (max-width:740px){
+  header {
+    height: 70px;
+  }
 }
 
 header .title {
@@ -46,6 +53,12 @@ header .link-to-github {
 main {
   width: 100%;
   height: calc(100vh - 52px);
+}
+
+@media screen and (max-width:740px){
+  main {
+    height: calc(100vh - 70px);
+  }
 }
 
 .code-body {
